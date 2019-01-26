@@ -1,0 +1,30 @@
+/* Mobile first queries */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar a{
+    color:black;
+    font-weight:bold;
+}
+.bgwhite{
+    background-color:white;
+}
+.loGo{
+    font-size: 2em;
+    font-weight:bold;
+}
+.active{
+    background-color:#9B9B9B;
+}
+
+/* Larger than mobile */
+@media (min-width: 405px) {
+
+.nItem{
+    border-radius: 5px;
+}
+.nItem:hover{
+    border-radius: 5px;
+}
+
+}
