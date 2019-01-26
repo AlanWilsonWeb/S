@@ -1,6 +1,6 @@
 /* Mobile first queries */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
 }
 .navbar a{
     color:black;
@@ -16,6 +16,33 @@ body {
 .active{
     background-color:#9B9B9B;
 }
+.bgCustom{
+    background-color:#9B9B9B;
+}
+.fontWhite{
+    color:white;
+}
+.jumbotron h2{
+    font-weight: lighter;
+}
+.lorEm{
+    text-align: center;
+}
+#blockOne{
+    position: relative;
+    right: 30px;
+}
+#blockTwo{
+    position: relative;
+    left: 30px;
+}
+#movieImg{
+    margin: auto;
+}
+#jumboBottom a{
+    color: white;
+}
+
 
 /* Larger than mobile */
 @media (min-width: 405px) {
@@ -26,5 +53,8 @@ body {
 .nItem:hover{
     border-radius: 5px;
 }
-
+.nav a{
+    border-radius: 5px;
+    transition: all 0.5s;
+}
 }
