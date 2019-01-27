@@ -19,6 +19,10 @@
         border-top: 2px solid black;
         margin: auto;
         margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .bottomIcon{
+        float: right;
     }
 }
 
@@ -123,6 +127,9 @@ input[type=checkbox]{
     float: left;
     margin-right: 100px;
 }
+.bold{
+    font-weight: bold;
+}
 
 /* Larger than mobile */
 @media (min-width: 768px) {
@@ -169,5 +176,7 @@ margin-top: 25px;
     height: 150px;
     border-left: 2px solid black;
 }
-
+.socialMedia{
+    margin-top: 25px;
+}
 }
