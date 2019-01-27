@@ -11,6 +11,15 @@
         margin-bottom: 25px;
         margin-top: 25px;
     }
+    #circle1{
+        width:100%;
+    }
+    .theBar{
+        width: 50%;
+        border-top: 2px solid black;
+        margin: auto;
+        margin-top: 15px;
+    }
 }
 
 body {
@@ -82,7 +91,6 @@ body {
     width: 90%;
 }
 #circle1{
-    width: 250px;
     height: 250px;
     background-color:#9B9B9B;
 }
@@ -97,6 +105,23 @@ input[type=checkbox]{
     background: black;
     border-color: white;
     color: white;
+    margin-right: 15px;
+}
+.bgMed{
+    background-color:#dddddd;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#medLine{
+    width: 75%;
+    border-top: 1px solid black;
+}
+#founders{
+    font-weight: bold;
+}
+#logo1{
+    float: left;
+    margin-right: 100px;
 }
 
 /* Larger than mobile */
@@ -119,6 +144,7 @@ input[type=checkbox]{
 margin-top: 25px;
 }
 #circle1{
+    width: 250px;
     border-radius: 50%;
     float: left;
     margin-right: 50px;
@@ -138,6 +164,10 @@ margin-top: 25px;
 .signUp{
     padding-right:25px;
     padding-left:25px;
+}
+.theBar{
+    height: 150px;
+    border-left: 2px solid black;
 }
 
 }
