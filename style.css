@@ -1,4 +1,11 @@
 /* Mobile first queries */
+@media (max-width: 767px) {
+    #wrapOne{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
 body {
     font-family: 'Roboto';
 }
@@ -74,7 +81,7 @@ body {
 }
 
 /* Larger than mobile */
-@media (min-width: 405px) {
+@media (min-width: 768px) {
 
 .nItem{
     border-radius: 5px;
@@ -103,7 +110,5 @@ margin-top: 25px;
     align-items: center;
     display: inline;
     margin: auto;
-}
-#textOne{
 }
 }
