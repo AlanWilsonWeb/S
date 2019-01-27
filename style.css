@@ -79,6 +79,13 @@ body {
     height: 250px;
     background-color:#9B9B9B;
 }
+.bgBlack{
+    background-color:black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+}
 
 /* Larger than mobile */
 @media (min-width: 768px) {
@@ -96,19 +103,18 @@ body {
 .nav-pills{
     font-size:2em;
 }
-
 .tab-content{
 margin-top: 25px;
 }
-
 #circle1{
     border-radius: 50%;
     float: left;
-    margin-right: 25px;
+    margin-right: 50px;
 }
 .tab-pane{
     align-items: center;
     display: inline;
     margin: auto;
 }
+
 }
