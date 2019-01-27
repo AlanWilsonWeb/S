@@ -6,6 +6,9 @@ body {
     color:black;
     font-weight:bold;
 }
+.nav a{
+    color: black;
+}
 .bgwhite{
     background-color:white;
 }
@@ -13,7 +16,7 @@ body {
     font-size: 2em;
     font-weight:bold;
 }
-.active{
+.Mactive{
     background-color:#9B9B9B;
 }
 .bgCustom{
@@ -42,7 +45,33 @@ body {
 #jumboBottom a{
     color: white;
 }
-
+.nav-pills{
+    font-size:1em;
+    transition: all 0.5s;
+}
+.nav-pills li.active a, .nav-pills li.active a:focus, .nav-pills li.active a:hover{
+    background-color:white;
+    color: black;
+    border: none;
+    border-radius:0;
+    text-decoration: underline;
+}
+.nav-pills a{
+    color: grey;
+}
+.twoFive{
+    width:20%;
+}
+.tabNav{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+#circle1{
+    width: 250px;
+    height: 250px;
+    background-color:#9B9B9B;
+}
 
 /* Larger than mobile */
 @media (min-width: 405px) {
@@ -56,5 +85,25 @@ body {
 .nav a{
     border-radius: 5px;
     transition: all 0.5s;
+}
+.nav-pills{
+    font-size:2em;
+}
+
+.tab-content{
+margin-top: 25px;
+}
+
+#circle1{
+    border-radius: 50%;
+    float: left;
+    margin-right: 25px;
+}
+.tab-pane{
+    align-items: center;
+    display: inline;
+    margin: auto;
+}
+#textOne{
 }
 }
