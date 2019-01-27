@@ -4,6 +4,13 @@
         display: flex;
         flex-direction: column-reverse;
     }
+    .signUp{
+        width: 100%;
+    }
+    .checkBoxes{
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
 }
 
 body {
@@ -86,6 +93,11 @@ body {
     padding-bottom: 15px;
     margin-top: 25px;
 }
+input[type=checkbox]{
+    background: black;
+    border-color: white;
+    color: white;
+}
 
 /* Larger than mobile */
 @media (min-width: 768px) {
@@ -115,6 +127,17 @@ margin-top: 25px;
     align-items: center;
     display: inline;
     margin: auto;
+}
+.rightSideBlack{
+    margin-top: 30px;
+}
+.theOptions{
+    border: 2px solid gray;
+    padding: 15px;
+}
+.signUp{
+    padding-right:25px;
+    padding-left:25px;
 }
 
 }
