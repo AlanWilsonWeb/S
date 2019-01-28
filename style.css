@@ -1,6 +1,6 @@
 /* Mobile first queries */
 @media (max-width: 767px) {
-    #wrapOne{
+    .wrapOne{
         display: flex;
         flex-direction: column-reverse;
     }
@@ -11,8 +11,12 @@
         margin-bottom: 25px;
         margin-top: 25px;
     }
-    #circle1{
+    .circle1{
         width:100%;
+    }
+    #medLine{
+        margin: auto;
+        width: 75%;
     }
     .theBar{
         width: 50%;
@@ -23,6 +27,24 @@
     }
     .bottomIcon{
         float: right;
+    }
+    #faceBook{
+        position: absolute;
+        top: -175px;
+        right: 75px;
+    }
+    #twitTer{
+        position: absolute;
+        top: -110px;
+        right: 40px;
+    }
+    #insTa{
+        position: absolute;
+        top: -50px;
+        right: 13px;
+    }
+    #dualLogos{
+        text-align: center;
     }
 }
 
@@ -94,7 +116,7 @@ body {
     margin: auto;
     width: 90%;
 }
-#circle1{
+.circle1{
     height: 250px;
     background-color:#9B9B9B;
 }
@@ -117,7 +139,6 @@ input[type=checkbox]{
     padding-bottom: 25px;
 }
 #medLine{
-    width: 75%;
     border-top: 1px solid black;
 }
 #founders{
@@ -129,6 +150,18 @@ input[type=checkbox]{
 }
 .bold{
     font-weight: bold;
+}
+#faceBook{
+    color: #3b5998;
+}
+#twitTer{
+    color: #1da1f2;
+}
+#insTa{
+    color: #d047d1;
+}
+#dualLogos{
+    margin-left: 30px;
 }
 
 /* Larger than mobile */
@@ -148,9 +181,9 @@ input[type=checkbox]{
     font-size:2em;
 }
 .tab-content{
-margin-top: 25px;
+    margin-top: 25px;
 }
-#circle1{
+.circle1{
     width: 250px;
     border-radius: 50%;
     float: left;
@@ -160,6 +193,9 @@ margin-top: 25px;
     align-items: center;
     display: inline;
     margin: auto;
+}
+#medLine{
+    width: 75%;
 }
 .rightSideBlack{
     margin-top: 30px;
