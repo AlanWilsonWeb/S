@@ -31,20 +31,27 @@
     #faceBook{
         position: absolute;
         top: -175px;
-        right: 75px;
+        right: 50px;
     }
     #twitTer{
         position: absolute;
         top: -110px;
-        right: 40px;
+        right: 15px;
     }
     #insTa{
         position: absolute;
         top: -50px;
-        right: 13px;
+        right: -12px;
     }
     #dualLogos{
         text-align: center;
+        margin-left: 35px;
+    }
+    .bottomContact{
+        margin-left: 25px;
+    }
+    #founders{
+        margin-left: 35px;
     }
 }
 
@@ -62,11 +69,14 @@ body {
     background-color:white;
 }
 .loGo{
-    font-size: 2em;
+    font-size: 3em;
     font-weight:bold;
 }
 .Mactive{
     background-color:#9B9B9B;
+}
+.Mactive a{
+    color: white;
 }
 .bgCustom{
     background-color:#9B9B9B;
@@ -114,7 +124,7 @@ body {
 .tabNav{
     text-align: center;
     margin: auto;
-    width: 90%;
+    width: 98%;
 }
 .circle1{
     height: 250px;
@@ -124,7 +134,10 @@ body {
     background-color:black;
     color: white;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
+    margin-top: 25px;
+}
+#diam{
     margin-top: 25px;
 }
 input[type=checkbox]{
@@ -146,7 +159,7 @@ input[type=checkbox]{
 }
 #logo1{
     float: left;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 .bold{
     font-weight: bold;
@@ -160,15 +173,27 @@ input[type=checkbox]{
 #insTa{
     color: #d047d1;
 }
-#dualLogos{
-    margin-left: 30px;
+#address2{
+    position: relative;
+    top: -10px;
+}
+#phone2{
+    position: relative;
+    top: -10px;
+}
+#email2{
+    position: relative;
+    top: -10px;
+}
+.doubleSpace{
+    line-height: 2.0;
 }
 
 /* Larger than mobile */
 @media (min-width: 768px) {
-
 .nItem{
     border-radius: 5px;
+    margin: 2px;
 }
 .nItem:hover{
     border-radius: 5px;
