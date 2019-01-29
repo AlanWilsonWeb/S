@@ -1,4 +1,9 @@
 /* Mobile first queries */
+@media (max-width: 768px) {
+    .nav-justified > li {
+        display: table-cell;
+    }
+    }
 @media (max-width: 767px) {
     .wrapOne{
         display: flex;
@@ -13,10 +18,16 @@
     }
     .circle1{
         width:100%;
+        margin-bottom: 40px;
+        margin-top: 15px;
+    }
+    .bgBlack{
+        padding-right: 10px;
+        padding-left: 10px;
     }
     #medLine{
         margin: auto;
-        width: 75%;
+        width: 82%;
         padding-bottom: 10px;
     }
     .theBar{
@@ -57,6 +68,7 @@
 }
 
 body {
+    margin-top: 15px;
     font-family: 'Roboto', sans-serif;
 }
 .navbar a{
@@ -190,7 +202,7 @@ input[type=checkbox]{
 @media (min-width: 768px) {
 .nItem{
     border-radius: 5px;
-    margin: 2px;
+    margin-left: 10px;
 }
 .navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
 .navbar {min-height:32px !important}
@@ -207,9 +219,6 @@ input[type=checkbox]{
 .tab-content{
     margin-top: 25px;
 }
-.verText{
-   
-}
 .circle1{
     width: 250px;
     border-radius: 50%;
@@ -220,6 +229,10 @@ input[type=checkbox]{
     align-items: center;
     display: inline;
     margin: auto;
+}
+.bgBlack{
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 #medLine{
     width: 75%;
@@ -239,8 +252,18 @@ input[type=checkbox]{
     padding-right:25px;
     padding-left:25px;
 }
+.bgMed{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#logo1{
+    margin-right: 100px;
+}
+.farRightSide{
+    margin-top: 15px;
+}
 .theBar{
-    height: 150px;
+    height: 175px;
     border-left: 2px solid black;
 }
 .socialMedia{
@@ -248,11 +271,5 @@ input[type=checkbox]{
 }
 .doubleSpace{
     line-height: 2.0;
-}
-
-}
-@media (max-width: 768px) {
-.nav-justified > li {
-    display: table-cell;
 }
 }
