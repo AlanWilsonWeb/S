@@ -81,6 +81,10 @@ body {
 .bgwhite{
     background-color:white;
 }
+.topLogo{
+    font-size: 2em;
+    font-weight: bold;
+}
 .loGo{
     font-size: 3em;
     font-weight:bold;
@@ -212,6 +216,21 @@ input[type=checkbox]{
 .nav a{
     border-radius: 5px;
     transition: all 0.5s;
+}
+#lineOne, #lineTwo{
+    font-size: 3em;
+}
+#blockOne{
+    position: relative;
+    right: 40px;
+}
+#blockTwo{
+    position: relative;
+    left: 40px;
+    top: -20px;
+}
+.jumbotron{
+    padding-top: 75px;
 }
 .nav-pills{
     font-size:2em;
