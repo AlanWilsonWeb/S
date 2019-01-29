@@ -17,6 +17,7 @@
     #medLine{
         margin: auto;
         width: 75%;
+        padding-bottom: 10px;
     }
     .theBar{
         width: 50%;
@@ -97,6 +98,7 @@ body {
 #blockTwo{
     position: relative;
     left: 30px;
+    top: -20px;
 }
 #movieImg{
     margin: auto;
@@ -183,9 +185,6 @@ input[type=checkbox]{
     position: relative;
     top: -10px;
 }
-.doubleSpace{
-    line-height: 2.0;
-}
 
 /* Larger than mobile */
 @media (min-width: 768px) {
@@ -228,8 +227,11 @@ input[type=checkbox]{
 .rightSideBlack{
     margin-top: 30px;
 }
+#diam{
+    line-height: 1.5;
+}
 .theOptions{
-    margin-top: 25px;
+    margin-top: 20px;
     border: 2px solid gray;
     padding: 25px;
 }
@@ -243,6 +245,9 @@ input[type=checkbox]{
 }
 .socialMedia{
     margin-top: 25px;
+}
+.doubleSpace{
+    line-height: 2.0;
 }
 
 }
