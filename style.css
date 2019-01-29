@@ -56,7 +56,7 @@
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 .navbar a{
     color:black;
@@ -123,8 +123,6 @@ body {
 }
 .tabNav{
     text-align: center;
-    margin: auto;
-    width: 98%;
 }
 .circle1{
     height: 250px;
@@ -195,6 +193,8 @@ input[type=checkbox]{
     border-radius: 5px;
     margin: 2px;
 }
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:32px !important}
 .nItem:hover{
     border-radius: 5px;
 }
@@ -207,6 +207,9 @@ input[type=checkbox]{
 }
 .tab-content{
     margin-top: 25px;
+}
+.verText{
+   
 }
 .circle1{
     width: 250px;
@@ -226,8 +229,9 @@ input[type=checkbox]{
     margin-top: 30px;
 }
 .theOptions{
+    margin-top: 25px;
     border: 2px solid gray;
-    padding: 15px;
+    padding: 25px;
 }
 .signUp{
     padding-right:25px;
@@ -239,5 +243,11 @@ input[type=checkbox]{
 }
 .socialMedia{
     margin-top: 25px;
+}
+
+}
+@media (max-width: 768px) {
+.nav-justified > li {
+    display: table-cell;
 }
 }
